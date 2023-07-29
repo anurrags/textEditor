@@ -1,0 +1,47 @@
+.editordiv {
+  margin: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.textarea {
+  height: 90%;
+  width: 100%;
+  border: 1px solid #000;
+}
+.editorTextSize {
+  width: 2rem;
+}
+.editorMenu {
+  width: 100%;
+  align-self: flex-start;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  background-color: #656464;
+  padding: 0.5rem 0rem;
+}
+.styleCom {
+  background-color: #fff;
+
+  padding: 0.4rem 0.8rem;
+}
+.styleBtn {
+  max-width: fit-content;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+.styleBtn:hover {
+  cursor: pointer;
+  transform: scale(110%);
+}
+.textSizediv {
+  background-color: inherit;
+}
+.textSizediv label {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.editorTextSize {
+  padding: 0.4rem 0.5rem;
+}
